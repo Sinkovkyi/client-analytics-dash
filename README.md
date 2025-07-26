@@ -22,7 +22,7 @@ The dashboard is intended to help understand:
 The expected final output for this project includes:
 
 * A Python script.
-* A 2-minute video (screen recording) demonstrating the functionality of the visualization.
+* A 30-second video (screen recording) demonstrating the functionality of the visualization.
 
 ## How to Run
 
