@@ -1,27 +1,21 @@
-# Project: Website Data Visualization
+# Client Analytics Dashboard
 
-This project aims to visualize website client data, including country distribution and cumulative revenue over time.
+This project provides an interactive dashboard to visualize client activity on a website, with a focus on geographic distribution and visit dynamics over time.
 
-## Data
+##  Key Features
 
-The following data points are used for visualization:
+- **Client Distribution by Country:** A pie chart shows how website visitors are distributed across selected countries for a chosen month.
+- **Client Visit Activity:** A line chart displays how the number of client visits changes daily for each country during the selected month.
+- **Interactive Filters:** Dropdowns allow users to select a specific month and one or more countries. The charts automatically update based on these selections.
 
-* **Date**: The date the client visited the website.
-* **Country**: The country where the client is located.
-* **Target**: The amount of money this client brought to the company.
+##  Purpose
 
-## Graphical Components
+The dashboard is intended to help understand:
+- Which countries generate the most traffic.
+- How client activity varies over time.
+- Market reach and audience behavior per region.
 
-The visualization will include the following graphical parts:
-
-* A page with a time filter, allowing selection of data by monthly intervals.
-* A Pie Chart displaying the distribution of clients by country, excluding invalid values.
-* Cumulative revenue per country, presented as multiple charts. The x-axis of these charts will represent days from the selected time filter.
-
-## Requirements
-
-* There are no special hosting requirements; the page can be hosted on a local server.
-* Dynamic interaction is preferred: charts should update and reload automatically when filters are changed.
+ **Note:** This dashboard does **not** include revenue or monetary data (e.g., no "Target" field). It is focused purely on visit-based analytics.
 
 ## Final Output
 
